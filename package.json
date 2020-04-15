@@ -2,17 +2,15 @@
   "name": "facerecognition",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aswaff.github.io/facerecognition",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "clarifai": "^2.9.1",
-    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-particles-js": "^3.0.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "3.2",
     "react-tilt": "^0.1.4",
     "tachyons": "^4.11.1"
   },
@@ -20,9 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
